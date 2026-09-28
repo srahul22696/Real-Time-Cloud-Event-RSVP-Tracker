@@ -76,3 +76,6 @@ src/styles.css     Responsive interface
 ## Limitations and next steps
 
 Connect Firebase Auth, Firestore listeners, transactional Cloud Functions, security rules, invite-token creation/QR generation, real notifications, and authorized staff check-in. Add Functions/emulator integration and end-to-end browser tests before claiming cloud authentication or concurrency safety. Synthetic seeded dates are demonstration content and should be refreshed for a real deployment.
+
+### Attendee demo mode
+Use the profile switcher in the lower-left corner to switch to the synthetic attendee view and submit a local Going/Maybe/Not going response. The response is saved only in this browser's local storage; the dashboard is seeded sample data and does not synchronize to other people. This is for interaction demonstration, not real invitations or cloud authentication.
